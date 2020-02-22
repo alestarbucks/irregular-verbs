@@ -4,6 +4,9 @@ $emphasis: grey;
 $table-border: rgb(180, 180, 180);
 $elem-bg: rgb(245, 245, 245);
 
+$mobile-fontsz-st: 11pt;
+$mobile-fontsz-sm: 10pt;
+
 * {
     font-family: $fontmain;
 }
@@ -159,12 +162,16 @@ input {
 
     td {
         width: 25%;
-        font-size: small;
+        font-size: $mobile-fontsz-sm;
     }
 
     td input {
         width: 85%;
-        font-size: small;
+        font-size: $mobile-fontsz-sm;
+    }
+
+    p {
+        font-size: $mobile-fontsz-st;
     }
 
     #check {
