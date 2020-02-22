@@ -1,0 +1,102 @@
+$fontmain: 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+
+$emphasis: grey;
+$table-border: rgb(180, 180, 180);
+$elem-bg: rgb(245, 245, 245);
+
+* {
+    font-family: $fontmain;
+}
+
+a {
+    color: black;
+}
+
+.header {
+    text-decoration: none;
+}
+
+.footer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.faq {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: justify;
+}
+
+.dummy:hover {
+    cursor: default;
+}
+
+#home {
+    border: 3px solid $emphasis;
+    background-color: $elem-bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+}
+
+#regen input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid $table-border;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+th, td {
+    border: 1px solid $table-border;
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: $elem-bg;
+}
+
+th {
+    background-color: $elem-bg;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid $table-border;
+    padding: 3px;
+}
+
+#check, #regen {
+    margin-bottom: 15px;
+}
+
+#regen {
+    display: inline;
+}
+
+#generated, #score {
+    display: none;
+}
+
+#generated {
+    flex-direction: column;
+    align-items: center;
+}
