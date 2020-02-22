@@ -61,7 +61,7 @@ table {
     border-collapse: collapse;
     border: 1px solid $table-border;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
     border-radius: 5px;
 }
 
@@ -99,4 +99,86 @@ input {
 #generated {
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-width: 900px) and (min-width: 501px) {
+    .faq {
+        width: 90%;
+    }
+
+    #home {
+        width: 70%;
+    }
+
+    #table {
+        width: 100%;
+        table-layout: fixed;
+        // background-color: red; // TESTING
+    }
+
+    td {
+        width: 25%;
+        font-size: medium;
+    }
+
+    td input {
+        width: 85%;
+        font-size: medium;
+    }
+
+    #check {
+        margin-bottom: 30px;
+    }
+
+    #regen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #regen input {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .faq {
+        width: 90%;
+    }
+
+    #home {
+        width: 70%;
+    }
+
+    #table {
+        width: 100%;
+        table-layout: fixed;
+        // background-color: green; // TESTING
+    }
+
+    td {
+        width: 25%;
+        font-size: small;
+    }
+
+    td input {
+        width: 85%;
+        font-size: small;
+    }
+
+    #check {
+        margin-bottom: 30px;
+    }
+
+    #regen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #regen input {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
 }

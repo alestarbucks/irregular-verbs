@@ -1,4 +1,5 @@
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 
 <body>
@@ -19,7 +20,7 @@
         <th>Infinitive</th>
         <th>Past simple</th>
         <th>Past Participle</th>
-        <th>Translation</th>
+        <th>Meaning</th>
       </tr>
       <tr *ngFor="let sel of selected; let i=index">
         <td *ngFor="let elem of selected[i]; let j=index">
@@ -73,16 +74,15 @@
       If you have any particular suggestions or you find a bug, please <a href="https://github.com/alestarbucks/irregular-verbs/issues/new">open an issue</a> on
       the project's repository so I can comfortably see what is left to do near my workspace. Please consider referring
       to the project's <a href="https://github.com/alestarbucks/irregular-verbs/blob/master/known-bugs.txt">known bugs</a> file and read it before opening an issue if you have time to do so.
-      Any criticism is welcome,
-      specially if it is aimed at making the application better and more approachable by everyone.
-      <!--Add FB and LinkedIn links?-->
+      Any criticism is welcome, specially if it is aimed at making the application better and more approachable by everyone. You can
+      also find me on my <a href="https://www.linkedin.com/in/alejandro-%C3%A1lvarez-conejo-b3676b190/">LinkedIn</a> page.
     </p>
   </div>
 
   <div class="footer">
-    RandVbs v. {{version}}<br>
-    created by <a target="_blank" href="https://github.com/alestarbucks">alestarbucks</a><br>
-    irregular verbs list © of <a target="_blank" href="http://www.english-area.com/">www.english-area.com</a>
+    irregular-verbs v. {{version}}<br>
+    created by <a href="https://github.com/alestarbucks">alestarbucks</a><br>
+    irregular verbs list © of <a href="http://www.english-area.com/">www.english-area.com</a>
   </div>
 </body>
 
