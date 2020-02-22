@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 export class AppComponent {
   title = 'engverbs';
 
+  public version:string = "1.0.1";
+
   private verbs:Array<[string, string, string, string]> = [
     ["arise", "arose", "arisen", "levantarse; surgir"],
     ["awake", "awoke", "awoken", "despertarse"],

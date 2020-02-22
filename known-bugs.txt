@@ -1,0 +1,3 @@
+KNOWN BUGS LIST:
+
+- After regenerating verb list, some red/green cells stay that color instead of going back to normal. Reason unknown.
